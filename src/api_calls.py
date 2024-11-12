@@ -1,6 +1,6 @@
 import requests
 # base_uri = 'https://sour-panther-bharatavjo-fca7ad2f.koyeb.app'
-base_uri = 'http://localhost:8501'
+base_uri = 'http://localhost:8000'
 
 
 # First API call to get competitor ads
@@ -16,7 +16,7 @@ def get_competitor_ads(company_name, product_name) -> list:
 def generate_creative_ideas(competitor_ads, product_name) -> list:
     url = f"{base_uri}/generate-ad-ideas"
     payload = {"competitor_ads": competitor_ads, "product_name": product_name}
-    res = requests.post(url, json=payload, timeout=120)
+    res = requests.post(url, json=payload, timeout=1200)
     res.raise_for_status()
     return res.json()  # Expected to be a list of 5 creative ideas
 

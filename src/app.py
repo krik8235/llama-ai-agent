@@ -204,4 +204,4 @@ if company_name and company_description:
 if st.button("Start Over"):
     for key in st.session_state.keys():
         del st.session_state[key]
-    st.experimental_rerun()
+    st.rerun()

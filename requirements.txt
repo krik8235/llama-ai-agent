@@ -47,3 +47,4 @@ tzdata==2024.2
 urllib3==2.2.3
 uvicorn==0.32.0
 yarl==1.17.1
+fastapi[standard]

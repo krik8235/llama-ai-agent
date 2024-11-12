@@ -5,7 +5,7 @@ from typing import Literal
 from together import Together
 from pydantic import BaseModel, Field
 load_dotenv(override=True)
-together = Together()
+together = Together(api_key=os.getenv('TOGETHER_API_KEY'))
 
 
 class AnalysisResult(BaseModel):
