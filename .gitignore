@@ -1,0 +1,5 @@
+.env
+appold.py
+__pycache__/
+Procfile
+
