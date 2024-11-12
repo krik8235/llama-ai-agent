@@ -1,6 +1,7 @@
 # Overview
 
-A ad creative generator that help businesses quickly and affordably generate marketing content, ad ideas, and creatives by analyzing user requirements and performing competitive research.
+An AI-powered ad creative generator that produces high-quality marketing content, ad ideas, and visuals tailored to your specific needs.
+
 
 [Website](https://create-ad-images.streamlit.app/)
 
